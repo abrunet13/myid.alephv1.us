@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/**Av1Button**/
+.AV1login{
+    display: inline-block;
+    max-width: 15%;
+    background-color: black;
+    border-radius: 15px;
+}
+.AV1login a, .AV1login img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.AV1login a{
+    font-size: 1vw;
+    padding: 5%;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    font-family: 'REM', sans-serif;
+}
+.AV1login img{
+    position:relative;
+    width: 10%;
+    padding: 0;
+    margin-right: 4%;
+}
+.AV1login a:hover{
+    color: transparent;
+    -webkit-animation: zomg 3s infinite;
+    animation: zomg 3s infinite;
+}
+@-webkit-keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+    16%      { color: #0074d9; }
+    32%      { color: #2ecc40; }
+    48%      { color: #ffdc00; }
+    64%      { color: #b10dc9; }
+    80%      { color: #ff4136; }
+}
+@keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+    16%      { color: #0074d9; }
+    32%      { color: #2ecc40; }
+    48%      { color: #ffdc00; }
+    64%      { color: #b10dc9; }
+    80%      { color: #ff4136; }
+}
+
+
+/**Av1Button**/
